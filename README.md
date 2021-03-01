@@ -75,6 +75,33 @@
 - 백엔드에서 넘어올 데이터가 각각 들어맞게 자리잡을 수 있는 집을 만들어준다는 개념으로 접근
 - Map 메서드에 대한 이해도를 많이 이해하였음
 
+<img width="943" alt="스크린샷 2021-03-02 오전 12 50 03" src="https://user-images.githubusercontent.com/75110649/109524151-801da480-7af3-11eb-9f4d-e8c7f519d64d.png">
+
+-목데이터를 활용하여, 백엔드에서 정보가 넘어오기 전에 미리 보여지는 렌더링을 확인하였음 
+
 
 ### 7. Nav/Footer(**본인구현**)
+![스크린샷 2021-03-02 오전 1 07 13](https://user-images.githubusercontent.com/75110649/109524283-a8a59e80-7af3-11eb-8688-716356db9fd9.png)
+
+<img width="566" alt="스크린샷 2021-03-02 오전 1 08 30" src="https://user-images.githubusercontent.com/75110649/109524482-ec98a380-7af3-11eb-9b91-320b9e8eb985.png">
+
+- 먼저 커뮤니티와 스토어라는 최상단 네비게이션안의 세부 카테고리에 대한 정보를 따로 js파일을 통해 관리하였음
+
+<img width="545" alt="스크린샷 2021-03-02 오전 1 08 10" src="https://user-images.githubusercontent.com/75110649/109524581-0b973580-7af4-11eb-9404-94dcd8e2dd41.png">
+
+<img width="450" alt="스크린샷 2021-03-02 오전 1 09 00" src="https://user-images.githubusercontent.com/75110649/109524589-0e922600-7af4-11eb-91f7-bd65f95f6c1d.png">
+
+
+- 온마우스오버라는 호버효과와 비슷한 이벤트를 콜백함수로 사용하여, e.target의 innerText에 따라, 렌더링 되는 부분이 다르게 하였음
+
+![스크린샷 2021-03-02 오전 1 11 22](https://user-images.githubusercontent.com/75110649/109524793-3ed9c480-7af4-11eb-8866-ca1c0dd37830.png)
+
+- 개인적인 추가구현사항으로 filter를 사용하여, 백엔드에서 받아온 데이터의 상품명에 따라, 인풋의 벨류와 비교하여 아래에 나타나는 자동완성 부분을 구현하고 싶었지만 팀의 목표시간과 너무 멀어질 것 같아서 하지못했음, 리펙토링 과정에서 추가할 생각
+
+![스크린샷 2021-03-02 오전 1 07 19](https://user-images.githubusercontent.com/75110649/109525072-81030600-7af4-11eb-8026-16f56f48ade6.png)
+
+<img width="392" alt="스크린샷 2021-03-02 오전 1 14 10" src="https://user-images.githubusercontent.com/75110649/109525165-9bd57a80-7af4-11eb-9f4a-401ab0cae4bb.png">
+
+- 작은 부분의 텍스트라도, 반복적인 ui가 나타나는 부분이면 따로 취합하여 데이터로 관리하려는 습관을 들이려고 노력하였음
+
 
