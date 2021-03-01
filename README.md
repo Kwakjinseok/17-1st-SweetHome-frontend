@@ -59,9 +59,22 @@
 
 <img width="649" alt="스크린샷 2021-03-02 오전 12 50 32" src="https://user-images.githubusercontent.com/75110649/109522298-76933d00-7af1-11eb-9a8d-52b4ff8c7a94.png">
 
+- ComponentDidMount 메서드에 대한 이해와 더불어 React의 생명주기에 대한 개념을 재정리 하였음
+
+<img width="358" alt="스크린샷 2021-03-02 오전 12 53 24" src="https://user-images.githubusercontent.com/75110649/109522526-b78b5180-7af1-11eb-98b1-97c555e19691.png">
+
+  <img width="1183" alt="스크린샷 2021-03-02 오전 1 00 49" src="https://user-images.githubusercontent.com/75110649/109523521-caeaec80-7af2-11eb-9311-41b22aafc853.png">
+
+- 장바구니의 수량이 변할 때, 바뀐 상품의 키값을 백엔드로 보내주고 곧 바로 그 바뀐 데이터를 fetch받아 state에 변화를 주어 재렌더링이 이뤄질 수 있는 로직을 구현 및 이해
+- 이 때, 처음에는 await와 async에 대해 알지 못했기 때문에, 위에서부터 fetch를 나열하면 순서대로 될 줄 알았으나 서버 상태에 따라서 전후가 바뀌어 정보의 전달이 원활하지 않은상황이 발생
+- 동기 비동기에 대한 구글링을 통해, await로 하나의 fetch가 끝난 후에 다음 fetch가 실행되도록 구현
+- 장바구니를 이용하기 위해, 매 통신마다 페이지의 로컬스토리지에 저장되어 있는 유저의 토큰을 보내는 것에 대한 이해를 하였음
+
+<img width="585" alt="스크린샷 2021-03-02 오전 1 02 42" src="https://user-images.githubusercontent.com/75110649/109523770-0e455b00-7af3-11eb-864f-2f81faf15d4c.png">
 
 - 백엔드에서 넘어올 데이터가 각각 들어맞게 자리잡을 수 있는 집을 만들어준다는 개념으로 접근
 - Map 메서드에 대한 이해도를 많이 이해하였음
+
 
 ### 7. Nav/Footer(**본인구현**)
 
