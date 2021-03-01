@@ -1,8 +1,5 @@
 
 
-![스크린샷 2021-03-02 오전 12 30 48](https://user-images.githubusercontent.com/75110649/109519395-8cebc980-7aee-11eb-8669-d6b6911a74b6.png)
-
-
 # Project SweetHome
 
 ### 구현 실습 사이트 : 오늘의집
@@ -24,7 +21,11 @@
 - 구현도 중요하지만 보기좋은 코딩을 위해, 반복적인 부분에 대한 고민을 계속 해야할듯함
 
 <img width="422" alt="스크린샷 2021-03-02 오전 12 19 37" src="https://user-images.githubusercontent.com/75110649/109518348-83159680-7aed-11eb-8a81-94c158bad2ba.png">
-![스크린샷 2021-03-02 오전 12 31 15](https://user-images.githubusercontent.com/75110649/109519479-9e34d600-7aee-11eb-8238-043cf7b781bb.png)
+
+
+
+![스크린샷 2021-03-02 오전 12 30 48](https://user-images.githubusercontent.com/75110649/109519395-8cebc980-7aee-11eb-8669-d6b6911a74b6.png)
+
 
 - 구조분해 할당과, e.target을 사용하기 위한 콜백함수 사용을 터득하여 적극적으로 사용하려고 노력하였음
 - 반복되는 구조이기에 분명히 리펙토링 해볼 수 있는 부분에 대해서 고민해봐야 함
